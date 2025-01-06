@@ -10,86 +10,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
 <link rel="icon" type="image/x-icon" href="mangwanepictures/AMANGWNE (1)-Photoroom.png">
-<link rel="stylesheet" href="v2mangwane.css">
-
-<style>
- body{
-  background-color: bisque;
-  background-image: url(mangwanepictures/page2mg.jpeg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-  font-family: 'Montserrat';
-  margin: 0;
-  padding: 0;
-  }
-
-  .header{
-      color:  white;
-      text-align: center;
-      font-size: 2rem;
-      margin-top: 80px;
-      margin-bottom: 20px;
-      padding: 0 20px;
-    
-    }
-
-    .div-border{
-      background-color: white;
-      color: rgb(96, 44, 44);
-      border-radius: 20px;
-      padding: 30px;
-      margin: 0 auto;
-      width: 90%;
-      max-width: 800px;
-      box-shadow: 0 4px 6px rgba(0 , 0, 0, 0.1);
-    }
-
-    .info-header{
-      font-size: 1.5rem;
-      margin-bottom: 10px;
-    }
-
-    .inquiry-text,
-    .inquiry-contact,
-    .thank-you {
-      font-size: 1rem;
-      line-height: 1,6;
-      margin-bottom: 15px;
-    }
-
-    .inquiry-contact strong{
-      display: block;
-      margin-top: 1.6;
-      font-size: 1.1rem;
-    }
-
-    .inquiry-contact .icon {
-      margin-right: 5px;
-    }
-
-    @media (max-width: 768px) {
-      .header {
-        font-size: 1.8rem;
-        margin-top: 50px;
-      }
-
-      .div-border {
-        padding: 20px;
-      }
-
-      .info-header{
-        font-size: 1.3rem;
-      }
-
-      .inquiry-text,
-      .inquiry-contact,
-      .thank-you {
-        font-size: 0.9rem;
-      }
-    }
-  
-</style>
+<link rel="stylesheet" href="style.css">
 
 </head>
 <body>
@@ -170,6 +91,8 @@
  </p>
  </div>
 
+ <button onclick="location.href='products.html'" class="enquire-btn"> Mangwane Catering</button>
+
  <button onclick="location.href='altmgpage.html'" class="enquire-btn"> Enquire</button>
  <br><br><br>
  </div>
@@ -217,14 +140,8 @@
 
  
 
-<script>
-  function scrollToSection(sectionId){
-    const target = document.getElementById(sectionId);
-    target.scrollIntoView({
-      behavior: "smooth"
-    });
-  }
-
+<script src="js/script.js"></script>
+  
 
 </script> 
 </body>
