@@ -1,12 +1,12 @@
 body{
   margin: 0;
   padding: 0;
-  background-color: pink;
+  background-color: bisque;
   background-image: url(mangwanepictures/page2mg.jpeg);
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  font-family: Montserrat;
+  font-family: "Montserrat";
 
 }
 
@@ -83,5 +83,8 @@ h1 {
 .image-gallery img {
   max-width: 100%;
 }
+
+
+
 
 
